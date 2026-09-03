@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: ghcr.io/samairasahu/myapp:latest
+          image: ghcr.io/samairasahu/myapp:99975e9b6a9fe8d0dd1a6101a7b9517d8ff1e22c
           ports:
             - containerPort: 8080
 ---
